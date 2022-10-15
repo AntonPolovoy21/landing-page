@@ -1,0 +1,42 @@
+.page-header__logo {
+  .link-style;
+  font-size: 30px;
+  font-weight: 700;
+  color: #858688;
+
+  padding: 25px 0;
+  margin: 0 auto;
+}
+
+.page-header__logo span {
+  color: #5b4295;
+}
+
+.page-header {
+  margin-bottom: 192px;
+}
+
+@media (min-width: @tablet-width) {
+  .page-header__logo {
+    padding: 70px 0 40px 0;
+    font-size: 46px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .page-header {
+    position: relative;
+    padding-top: 78px;
+    display: flex;
+    justify-content: space-between;
+
+    background: url('../img/bg.jpg') no-repeat 50% 0;
+  }
+
+  .page-header__logo {
+    margin: 0;
+    padding: 0;
+    padding-top: 7px;
+    font-size: 30px;
+  }
+}

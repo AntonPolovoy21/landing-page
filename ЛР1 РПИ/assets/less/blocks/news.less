@@ -1,0 +1,47 @@
+.news {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-bottom: 90px;
+}
+
+.news__list {
+  .list-style;
+}
+
+.news__text {
+  margin: 0;
+  font-family: "Malaga";
+  font-style: italic;
+  font-size: 22px;
+  line-height: 31px;
+  color: #101010;
+  letter-spacing: 0.25px;
+  margin-bottom: 3px;
+}
+
+.news__author {
+  font-family: "Malaga Narrow";
+  font-size: 16px;
+  line-height: 32px;
+  color: #727272;
+  letter-spacing: 0.7px;
+}
+
+@media (min-width: @tablet-width) {
+  .news {
+    width: 560px;
+  }
+
+  .news__text {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: @desktop-width) {
+  .news {
+    margin-left: 203px;
+    width: 530px;
+    margin-bottom: 108px;
+  }
+}
